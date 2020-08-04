@@ -1,0 +1,79 @@
+<header class="clearfix" id="header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <a routerLink="/" routerLinkActive="active"><img [src]='logoPath' height="50px" style="margin: -8px"/></a>
+        <i (click)="bottomMenu()" style="margin-top: 12px; float: right" class="d-lg-none" nz-icon [nzType]="'down-circle'"></i>
+      </div>
+      <div class="col-md-8 d-none d-lg-block">
+        <div style="float: right;">
+          <a routerLink="/" routerLinkActive="active"><button  style="border-color: #03942F" nz-button [nzSize]="'large'" nzType="default">Home</button></a>
+          <a routerLink="/sessions" routerLinkActive="active"><button style="border-color: #03942F;" nz-button [nzSize]="'large'" nzType="default">Sessions</button></a>
+          <a routerLink="/team" routerLinkActive="active"><button style="border-color: #03942F;"  nz-button [nzSize]="'large'" nzType="default">Team</button></a>
+          <a routerLink="/partners" routerLinkActive="active"><button style="border-color: #03942F;"  nz-button [nzSize]="'large'" nzType="default">Partners</button></a>
+          <a routerLink="/contact" routerLinkActive="active"><button style="border-color: #03942F;" nz-button [nzSize]="'large'" nzType="default">Contact</button></a>
+          <a routerLink="/register" >
+            <button style="background-color: #03942F; border-color: #03942F" nz-button [nzSize]="'large'" nzType="primary" >
+              Register Now <i style="color:#FFF; margin-left: 4px" nz-icon [nzType]="'double-right'"></i>
+            </button>
+           <!--<div>
+              <h2>{{ 'HOME.TITLE' | translate }}</h2>
+              <p>{{ 'HOME.TEXT' | translate }}</p>
+              <label for="">
+                {{ 'HOME.SELECT' | translate }}
+                <select #langselect (change)="translate.use(langselect.value")>
+                  <option *ngFor="let lang of translate.getlang()" value="lang">{{ lang }}</option>
+                </select>
+              </label>
+            </div>-->
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<router-outlet ></router-outlet>
+<div style="background: #f7f7f7">
+    <div class="container p-6">
+        <div class="row mb-2">
+          <div class="col-md-6 mb-6">
+              <br>
+              <p class="mb-4">Nanban is an Ed-Tech startup based out of Coimbatore.
+                We are trying to become an A to Z Student services company under United Nation's SDG Goals.
+                Feel free to collaborate with us to empower and enable Students across India.
+              </p>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5 class="mb-4">Company</h5>
+                <a class="font-regular color-333333" routerLink="/about" >About Us</a><br>
+                <a class="font-regular color-333333" routerLink="/team" >Team</a><br>
+                <a class="font-regular color-333333" routerLink="/brands">Brands</a><br>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5 class="mb-4">Useful links</h5>
+                <a class="font-regular color-333333"  routerLink="/privacy">Privacy Policy</a><br>
+                <a class="font-regular color-333333"  routerLink="/terms" >Terms & conditions</a><br>
+                <a class="font-regular color-333333"  routerLink="/contact">Contact</a><br>
+
+
+              </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <a routerLink="/" routerLinkActive="active"><img src="../assets/icons/logo2.png" height="70px"/></a>
+            </div>
+            <div class="col-md-6 row" style="direction: rtl">
+                <div style="align-self: center">
+                      <a target="_blank" href="{{instagramPath}}"><i style="margin-left: 4px" nz-icon [nzType]="'instagram'"></i></a>
+                      <a target="_blank" href="{{LinkedInPath}}"><i style="margin-left: 4px; margin-bottom: 30px;" nz-icon [nzType]="'linkedin'" ></i></a>
+                      <a target="_blank" href="{{youtubePath}}"><i style="margin-left: 4px" nz-icon [nzType]="'youtube'"></i></a>
+                      <a target="_blank" href="{{facebookPath}}"><i style="margin-left: 4px" nz-icon [nzType]="'facebook'"></i></a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

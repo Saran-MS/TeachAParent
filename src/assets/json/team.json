@@ -1,0 +1,485 @@
+{
+    "leads": [
+        {
+            "name": "Domini James",
+            "image": "assets/team/Owners/Domini.jpg",
+            "role": "Relations Manager",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://www.linkedin.com/in/domini-james-42a57b134/"
+        },
+        {
+            "name": "Ramki M",
+            "image": "assets/team/Owners/Ramki1.png",
+            "role": "Chief Education Officer",
+            "linkedin": "https://www.linkedin.com/in/mramki/"
+        },
+
+        {
+            "name": "Sanjana A",
+            "image": "assets/team/Owners/Sanjana.jpg",
+            "role": "Operations Manager",
+            "linkedin": "https://www.linkedin.com/in/sanjana-ananth-962580140/"
+
+        },
+        {
+          "name": "Vinith B",
+          "image": "assets/team/Owners/Vinith.jpg",
+          "role": "Chief Technology Officer",
+          "linkedin": "https://www.linkedin.com/in/vinith-babu-278222106/"
+
+      },
+      {
+        "name": "Dhivya Krishna",
+        "image": "assets/team/Owners/Dhivya.jpg",
+        "role": "Content Head",
+        "linkedin": "https://www.linkedin.com/in/dhivya-krishna-37a00711b/"
+
+    },
+    {
+      "name": "Hari Nandhan",
+      "image": "assets/team/Owners/Hari.jpg",
+      "role": "Program Manager",
+      "linkedin": "https://www.linkedin.com/in/hari-nandhan-6410b8163/"
+
+  },
+  {
+    "name": "Rachana Krishna",
+    "image": "assets/team/Owners/Rachana.jpeg",
+    "role": "Program Manager",
+    "linkedin": "https://www.linkedin.com/in/rachana-krishna/"
+
+},
+{
+  "name": "M Arjun",
+  "image": "assets/team/Owners/Arjun.jpeg",
+  "role": "Legal",
+  "linkedin": "https://www.linkedin.com/in/arjun-mohandas-a18223183"
+
+}
+],
+    "core": [
+        {
+            "name": "Sushma Bala",
+            "image": "assets/team/TeachAParent/Sushma.jpeg",
+            "role": "Program Manager",
+            "linkedin": "https://www.linkedin.com/in/"
+        },
+        {
+            "name": "Akash Kannan",
+            "image": "assets/team/TeachAParent/Kannan.jpeg",
+            "role": "Program Manager",
+            "linkedin": "https://www.linkedin.com/in"
+        },
+        {
+          "name": "Maniksha Bobby ",
+          "image": "assets/team/TeachAParent/maniksha.jpg",
+          "role": "Developer",
+          "linkedin": "https://www.linkedin.com/in/"
+      },
+      {
+        "name": "Archana Shivani",
+        "image": "assets/team/TeachAParent/archana.jpeg",
+        "role": "Digital Marketing",
+        "linkedin": "https://www.linkedin.com/in/"
+      },
+      {
+      "name": "Vikasini",
+      "image": "assets/team/TeachAParent/vikasini1.JPG",
+      "role": "Designer",
+      "linkedin": "https://www.linkedin.com/in/"
+      },
+      {
+       "name": "Swethaa",
+      "image": "assets/team/TeachAParent/sweetha.jpg",
+      "role": "Designer",
+      "linkedin": "https://www.linkedin.com/in/"
+      },
+      {
+        "name": "Niveditha",
+        "image": "assets/team/TeachAParent/nivedhitha.JPG",
+        "role": "Content writer",
+      "linkedin": "https://www.linkedin.com/in/"
+      },
+      {
+        "name": "Nirmal Kumar",
+        "image": "assets/team/Interns/nk.jpeg",
+        "role": "Designer",
+        "linkedin": "https://www.linkedin.com/in/"
+      },
+      {
+         "name": "Saran",
+         "image": "assets/team/TeachAParent/saran.jpg",
+         "role": "Developer",
+        "linkedin": "https://www.linkedin.com/in/"
+      }
+],
+
+  "interns":[
+    {
+      "name": "Arun",
+      "image": "assets/team/Interns/Arun.jpeg",
+      "college": "Velalar College of Engineering And Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Balaji",
+      "image": "assets/team/Interns/Balaji.jpeg",
+      "college": "Velalar College of Engineering And Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Barath",
+      "image": "assets/team/Interns/Barath.jpeg",
+      "college": "Karpagam College of Engineering",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Deepthi",
+      "image": "assets/team/Interns/Deepthi.jpeg",
+      "college": "Sri Krishna College of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Jaishyam",
+      "image": "assets/team/Interns/Jaishyam.jpeg",
+      "college": "Sri Krishna College of Engineering And Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Kannan",
+      "image": "assets/team/Interns/Kannan.jpeg",
+      "college": "Sri Krishna Adithya College of Arts & Science",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Manoj",
+      "image": "assets/team/Interns/Manoj.jpeg",
+      "college": "Sri Krishna College of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Mridul",
+      "image": "assets/team/Interns/Mridul.jpg",
+      "college": "Velalar College of Engineering And Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Punitha",
+      "image": "assets/team/Interns/Punitha.jpeg",
+      "college": "Sankara College of Science and Commerce",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Ranjith",
+      "image": "assets/team/Interns/ranjith.jpeg",
+      "college": "KGISL Institute of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Resanth",
+      "image": "assets/team/Interns/Resanth.jpeg",
+      "college": "Sankara College of Science and Commerce",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Rohith",
+      "image": "assets/team/Interns/Rohith.jpeg",
+      "college": "Coimbatore Institute of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Roselin",
+      "image": "assets/team/Interns/roselin.jpeg",
+      "college": "KGISL Institute of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Sanjeev",
+      "image": "assets/team/Interns/Sanjeev.jpeg",
+      "college": "AJK College of Arts and Science",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Shri Hari",
+      "image": "assets/team/Interns/Shri Hari.jpg",
+      "college": "Sri Krishna College of Engineering And Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Sree Sai Varsha",
+      "image": "assets/team/Interns/Sree Sai Varsha.jpeg",
+      "college": "KGISL Institute of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Srinath",
+      "image": "assets/team/Interns/Srinath.jpeg",
+      "college": "Sri Krishna Arts and Science College",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Sushma",
+      "image": "assets/team/Interns/Sushma.jpeg",
+      "college": "Coimbatore Institute of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+
+    {
+      "name": "Veeramani",
+      "image": "assets/team/Interns/Veeramani.jpeg",
+      "college": "Karpagam college of engineering",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Vishwa Poojitha",
+      "image": "assets/team/Interns/Vishwa Poojitha.jpeg",
+      "college": "KGISL Institute of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Epaphra",
+      "image": "assets/team/Interns/Epaphra.jpg",
+      "college": "Sri Krishna College of Engineering and Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Nithyashree Senguttuvan",
+      "image": "assets/team/Interns/Nithyashree.jpeg",
+      "college": "Sri Krishna College of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Gomathi",
+      "image": "assets/team/Interns/gomathi.jpeg",
+      "college": "Government College of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Maniksha Bobby ",
+      "image": "assets/team/TeachAParent/maniksha.jpg",
+      "college": "Dr.NGP Institute of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+  },
+  {
+    "name": "Archana Shivani",
+    "image": "assets/team/TeachAParent/archana.jpeg",
+    "college": "KGISL Institute of Technology",
+    "linkedin": "https://www.linkedin.com/in/"
+  },
+  {
+    "name": "Manoj Venkatesun",
+    "image": "assets/team/Interns/Manoj Venkatesun.JPG",
+    "college": "Sri Krishna college of Technology",
+    "linkedin": "https://www.linkedin.com/in/"
+  },
+    {  "name": "Niveditha",
+    "image": "assets/team/TeachAParent/nivedhitha.JPG",
+    "college": "Coimbatore Institute of technology",
+  "linkedin": "https://www.linkedin.com/in/"
+  },
+  {
+    "name": "Swethaa",
+   "image": "assets/team/TeachAParent/sweetha.jpg",
+   "college": "Sri Krishna College of Technology",
+   "linkedin": "https://www.linkedin.com/in/"
+   },
+  {
+    "name": "Yamini S U",
+    "image": "assets/team/Interns/yamini.jpg",
+    "college": "Karpagam College of Engineering",
+    "linkedin": "https://www.linkedin.com/in/"
+  },
+  {
+    "name": "Vikasini",
+    "image": "assets/team/TeachAParent/vikasini1.JPG",
+    "college": "Coimbatore Institute of Technology",
+    "linkedin": "https://www.linkedin.com/in/"
+    },
+  {
+    "name": "Saran",
+    "image": "assets/team/TeachAParent/saran.jpg",
+    "college": "Sri Ramakrishna Engineering College",
+   "linkedin": "https://www.linkedin.com/in/"
+ },
+ {
+  "name": "Dikshitkumar",
+  "image": "assets/team/Interns/dikshit.jpeg",
+  "college": "Sri Krishna College of Engineering and Technology",
+  "linkedin": "https://www.linkedin.com/in/"
+  }
+
+  ],
+
+  "campus":[
+    {
+    "name": "Bharath",
+    "image": "assets/team/Interns/Bharath.jpeg",
+    "college": "KPR Institute Of Engineering and Technology",
+    "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Manoj",
+      "image": "assets/team/Interns/Manoj.jpeg",
+      "college": "Sri Krishna college of Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+        "name": "Punitha",
+        "image": "assets/team/Interns/Punitha.jpeg",
+        "college": "Sankara College of Science and Commerce",
+        "linkedin": "https://www.linkedin.com/in/"
+    },
+
+    {
+        "name": "Rathesh P",
+        "image": "assets/team/Interns/Rathesh P.jpeg",
+        "college": "Government College Of Technology",
+        "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Resanth",
+      "image": "assets/team/Interns/Resanth.jpeg",
+      "college": "Sankara College of Science and Commerce",
+      "linkedin": "https://www.linkedin.com/in/"
+  },
+  {
+    "name": "Roselin",
+    "image": "assets/team/Interns/roselin.jpeg",
+    "college": "KGISL Institute Of Technology",
+    "linkedin": "https://www.linkedin.com/in/"
+},
+{
+  "name": "Sushma",
+  "image": "assets/team/Interns/Sushma.jpeg",
+  "college": "Coimbatore Institute of Technology",
+  "linkedin": "https://www.linkedin.com/in/"
+},
+{
+  "name": "Yokeswaran M P",
+  "image": "assets/team/Interns/Yokes.jpeg",
+  "college": "RVS College Of Arts and Science",
+  "linkedin": "https://www.linkedin.com/in/"
+}
+
+  ],
+  "development":[
+    {
+      "name": "Nirmal Kumar M",
+      "image": "assets/team/Interns/nk.jpeg",
+      "role": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Jagadheesh M",
+      "image": "assets/team/Interns/jaga.jpg",
+      "role": "Developer",
+      "linkedin": "https://www.linkedin.com/in/"
+    }
+
+  ],
+  "alumni":[
+    {
+      "name": "Prem A",
+      "image": "assets/team/Interns/prem.jpg",
+      "college": "Business Development",
+      "linkedin": "https://www.linkedin.com/in/"
+    },
+    {
+      "name": "Venkat B",
+      "image": "assets/team/Interns/venkat.jpeg",
+      "college": "Sri Krishna College Of Engineering and Technology",
+      "linkedin": "https://www.linkedin.com/in/"
+    }
+  ],
+  "paws":[
+    {
+      "name": "Appu",
+      "image": "assets/team/pets/appu.jpeg"
+    },
+    {
+      "name": "Bhairava",
+      "image": "assets/team/pets/bhairava.jpeg"
+    },
+    {
+      "name": "Buddy",
+      "image": "assets/team/pets/buddy.jpeg"
+    },
+    {
+      "name": "Jack",
+      "image": "assets/team/pets/jack.jpeg"
+    },
+    {
+      "name": "Meenu",
+      "image": "assets/team/pets/meenu.jpeg"
+    },
+    {
+      "name": "spikey",
+      "image": "assets/team/pets/spikey.jpeg"
+    },
+    {
+      "name": "Topsy",
+      "image": "assets/team/pets/topsy.jpeg"
+    },
+    {
+      "name": "Choco",
+      "image": "assets/team/pets/Choco.jpeg"
+    },
+    {
+      "name": "Fluffy",
+      "image": "assets/team/pets/Fluffy.jpeg"
+    }
+
+  ],
+
+  "shoutout":[
+    {
+      "name": "iBevy Forte - spotknack",
+      "image": "assets/team/shoutout/spotknack1.png"
+    },
+    {
+      "name": "Youth Foundation",
+      "image": "assets/team/shoutout/youth2.png"
+    },
+    {
+      "name": "GirlScript Coimbatore",
+      "image": "assets/team/shoutout/GirlScript.png"
+    },
+    {
+      "name": "KGISL Institute of Technology",
+      "image": "assets/team/shoutout/KITE.png"
+    },
+    {
+      "name": "Uliyin Uruvam",
+      "image": "assets/team/shoutout/uliyin uruvam.jpeg"
+    }
+
+
+
+  ],
+  "outreach":[
+    {
+      "name": "Apex Multimedia",
+      "image": "assets/team/outreach/Apex1.jpg"
+    },
+    {
+      "name": "DSC SKCT",
+      "image": "assets/team/outreach/DSC SKCT.jpg"
+    },
+    {
+      "name": "Hackup Technology",
+      "image": "assets/team/outreach/Hackup 2.png"
+    },
+    {
+      "name": "Startup Grind",
+      "image": "assets/team/outreach/Startup grind 2.jpg"
+    },
+    {
+      "name": "Digizine",
+      "image": "assets/team/outreach/digizine.jpg"
+    }
+
+
+  ]
+
+
+}

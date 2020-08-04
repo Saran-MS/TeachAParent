@@ -1,0 +1,108 @@
+<div class="container mt-5 mb-5">
+  <h4 class="pt-5 pb-2 mt-5 text-center">Register for Teach A Parent</h4>
+  <div class="row justify-content-center">
+    <div class="col-md 6">
+      <div class="material-border">
+        <div class="flex row" >
+          <div class="flex row fo" >
+          <div class="col-md-6 fo2" >
+            <form (ngSubmit)="onSubmit()">
+              <div class="form-group">
+                <label for="item">Name</label>
+                <input type="text" class="form-control" placeholder="First Name" id="item" required
+                  [(ngModel)]="user.name" name="item" #firstName="ngModel">
+                <div class="alert alert-danger" *ngIf="firstName.touched && !firstName.valid">
+                  <div *ngIf="firstName.errors.required">Name is required.</div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="item">Whatsapp Number</label>
+                <input type="number" class="form-control" placeholder="" id="item" required
+                  [(ngModel)]="user.phone" name="item" #phone='ngModel' ng-pattern="[0-9]">
+                <div class="alert alert-danger" *ngIf="phone.touched && !phone.valid">
+                  <div *ngIf="phone.errors.required">phone number is required.</div>
+                </div>
+              </div>
+
+
+              <label for="item">Email ID (optional)</label>
+              <input type="email" class="form-control" placeholder="" id="item" required [(ngModel)]="user.email"
+                name="item">
+              <br>
+              <div class="btn-group">
+                <input type="submit" (click)="openSnackbar('Registered ' ,'Dismiss')"
+                  class="btn btn-success" value="submit" >
+                  <br>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <br>
+            <h5>You can either register here with your details to receive reminder at the time of webinar </h5><br>
+            <h5>(OR)</h5><br>
+
+            <h5>You can visit our Youtube Channel at the time of webinar</h5>
+            <a target="_blank" href="https://www.youtube.com/channel/UCOPG-sxV_rmHsgCPR_NQDXg"><button style="background-color: #03942F; border-color: #03942F" nz-button
+                [nzSize]="'large'" nzType="primary">Youtube</button></a><br>
+                <br>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Agenda</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+
+                  <td>Online Privacy and Safety</td>
+                </tr>
+                <tr>
+
+                  <td>How to use Social Media Effectively</td>
+
+                </tr>
+                <tr>
+                  <td>How to use Smartphones and Laptops effectively</td>
+
+                </tr>
+                <tr>
+                  <td>Finance Management</td>
+
+                </tr>
+                <tr>
+                  <td>Other Education Streams for your child</td>
+
+                </tr>
+                <tr>
+                  <td>Online Earning Opportunities</td>
+
+                </tr>
+                <tr>
+                  <td>How to Connect with your child</td>
+
+                </tr>
+                <tr>
+                  <td>Skilling through Technology for your career</td>
+
+                </tr>
+                <tr>
+                  <td>How to prepare your child for Entrepreneurship</td>
+
+                </tr>
+                <tr>
+                  <td>How to prepare your child for Placements</td>
+
+                </tr>
+              </tbody>
+            </table>
+            <h5>
+              If you face any difficulty in registration, feel free to call <br>Mr.Kannan at +91 8072526833 .
+              We would be happy to help you attend the webinar easily.</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,114 @@
+<div class="container text-center mt-6 mb-6">
+    <h2 class="pt-5 pb-2 mt-5">We work as a family!</h2>
+    <p class="pb-2 font-regular">A distinguished team consists of all kinds of
+        persons with lot of skills in different areas.
+        <br>We respect talents and give opportunity for those who can do.
+    </p>
+    <div class="row justify-content-center">
+        <div class="col-md 12 text-center">
+            <div class="material-border">
+
+              <h2 *ngIf="leads.length > 0" class="m-3">The Hosts of Teach A Parent</h2>
+              <div *ngIf="leads.length > 0" class="row justify-content-center">
+              <div *ngFor="let lead of speakersList" class="col-md-4" >
+                <div *ngIf="lead.speakerName" >
+                    <img *ngIf="lead.speakerImage && lead.speakerImage !== ''" class="m-2 round-120" [src]='lead.speakerImage'/>
+                    <img *ngIf="!lead.speakerImage || lead.speakerImage === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                    <br><h5 class="pb-0 mb-0 font-regular">{{lead.speakerName}}</h5>
+                    <p class="pfont">{{lead.speakerRole}}</p>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <h2 *ngIf="coreTeam.length > 0" class="m-3">The Team Behind Teach A Parent </h2>
+              <br>
+                <div *ngIf="coreTeam.length > 0" class="row justify-content-center">
+                    <div *ngFor="let lead of coreTeam" class="col-md-3">
+                        <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image'/>
+                        <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                        <h5 class="pb-0 mb-0 font-regular" >{{lead.name}}</h5>
+                        <p class="pb-0 mb-1 font-regular"style="color: #03942F;">{{lead.role}}</p>
+                    </div>
+                </div>
+                <br>
+
+                <h2 *ngIf="leads.length > 0" class="m-3">The Team behind Nanban</h2>
+                <br><br>
+                <div *ngIf="leads.length > 0" class="row justify-content-center">
+                    <div *ngFor="let lead of leads" class="col-md-3">
+                        <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image' />
+                        <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                        <h5 class="pb-0 mb-0 font-regular " >{{lead.name}}</h5>
+                        <p class="pb-0 mb-1 font-regular" style="color: #03942F;">{{lead.role}}</p>
+                        <div class="mb-5">
+                            <a *ngIf="lead.linkedin" target="_blank" href="{{lead.linkedin}}"><i style="color: rgb(0, 119, 181); margin-right: 4px; margin-left: 4px" nz-icon [nzTheme]="'fill'" [nzType]="'linkedin'"></i></a>
+                            <a *ngIf="lead.github" target="_blank" href="{{lead.github}}"><i style="color: #333; margin-right: 4px; margin-left: 4px" nz-icon [nzType]="'github'"></i></a>
+                            <a *ngIf="lead.link" target="_blank" href="{{lead.link}}"><i style="color: #333; margin-left: 0px" nz-icon [nzType]="'link'"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+
+               <h2 *ngIf="internTeam.length > 0" class="m-3">Interns at Nanban</h2>
+                <div *ngIf="internTeam.length > 0" class="row justify-content-center">
+                    <div *ngFor="let lead of internTeam" class="col-md-4">
+                        <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image' />
+                        <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                        <h5 class="pb-0 mb-0 font-regular">{{lead.name}}</h5>
+                        <p class="pfont">{{lead.college}}</p>
+                    </div>
+                </div>
+
+                <br>
+                <h2 *ngIf="campusTeam.length > 0" class="m-3">Campus Ambassadors of Nanban</h2>
+                 <div *ngIf="campusTeam.length > 0" class="row justify-content-center">
+                     <div *ngFor="let lead of campusTeam" class="col-md-4">
+                         <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image' />
+                         <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                         <h5 class="pb-0 mb-0 font-regular">{{lead.name}}</h5>
+                         <p class="pfont">{{lead.college}}</p>
+                     </div>
+                 </div>
+
+                 <br>
+                 <h2 *ngIf="developmentTeam.length > 0" class="m-3">Development Team</h2>
+                  <div *ngIf="developmentTeam.length > 0" class="row justify-content-center">
+                      <div *ngFor="let lead of developmentTeam" class="col-md-4">
+                          <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image' />
+                          <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                          <h5 class="pb-0 mb-0 font-regular">{{lead.name}}</h5>
+                          <p class="pb-0 mb-1 font-regular" style="color: #03942F;">{{lead.role}}</p>
+                      </div>
+                  </div>
+
+
+                  <br>
+                  <h2 *ngIf="alumniTeam.length > 0" class="m-3">Alumni</h2>
+                   <div *ngIf="alumniTeam.length > 0" class="row justify-content-center">
+                       <div *ngFor="let lead of alumniTeam" class="col-md-4">
+                           <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image' />
+                           <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                           <h5 class="pb-0 mb-0 font-regular">{{lead.name}}</h5>
+                           <p class="pfont" style="color: #03942F;">{{lead.college}}</p>
+                       </div>
+                   </div>
+
+
+                   <br>
+                   <h2 *ngIf="paws.length > 0" class="m-3">Paws at Nanban</h2>
+                   <p  *ngIf="paws.length > 0">At Nanban, we do care for these little Furry Paws</p>
+                    <div *ngIf="paws.length > 0" class="row justify-content-center">
+                        <div *ngFor="let lead of paws" class="col-md-4">
+                            <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image' />
+                            <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                            <h5 class="pb-0 mb-0 font-regular">{{lead.name}}</h5>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+            </div>
+        </div>
+    </div>
+</div>

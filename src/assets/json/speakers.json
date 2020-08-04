@@ -1,0 +1,145 @@
+[
+  {
+    "sessionName": "Online Privacy and Safety",
+    "sessionColor": "geekblue",
+    "sessionDescription": "Learn about online privacy and safety for Social media and Online Banking, something crucial among the present youngsters.",
+    "sessionDate":"July 8",
+    "sessionStartTime": "07.00",
+    "sessionEndTime": "08.00 P.M",
+    "speakerName": "Ranjith",
+    "speakerRole": "KGISL Institute of Technology",
+    "speakerImage": "assets/speakers/ranjith.jpeg",
+    "speakerDescription": "",
+    "linkedin": "https://www.linkedin.com/in/ranjithkumar-b-90178213b/"
+
+  },
+  {
+    "sessionName": "How to use Social Media Effectively",
+    "sessionColor": "green",
+    "sessionDescription": "Learn about WhatsApp& Facebook on how to use it in the best way.",
+    "sessionDate":"July 9",
+    "sessionStartTime": "07.00",
+    "sessionEndTime": "08.00 P.M",
+    "speakerName": "Kannan",
+    "speakerRole": "Sri Krishna Adithya College of Arts and Science",
+    "speakerImage": "assets/speakers/Kannan.jpeg",
+    "speakerDescription": "",
+    "linkedin": "https://www.linkedin.com/in/kannan-subramanian-93782b163/"
+  },
+ {
+      "sessionName": "How to use Smartphones and Laptops effectively",
+      "sessionColor": "geekblue",
+      "sessionDescription": "Learn about the basics on how to operate your smartphones and laptops." ,
+      "sessionDate":"July 10",
+      "sessionStartTime": "07:00",
+      "sessionEndTime": "08.00 P.M",
+      "speakerName": "Resanth",
+      "speakerRole": "Sankara College of Science and Commerce",
+      "speakerImage": "assets/speakers/Resanth.jpeg",
+      "speakerDescription": "",
+      "linkedin": "https://www.linkedin.com/in/resanthboopathy566/"
+    },
+    {
+      "sessionName": "Finance Management",
+      "sessionColor": "orange",
+      "sessionDescription": "Learn about how to manage personal finance , savemoney for your son/daughter education and how to arrange money during this pandemic",
+      "sessionDate":"July 11",
+      "sessionStartTime": "07:00",
+      "sessionEndTime": "08.00 P.M",
+      "speakerName": "Epaphra",
+      "speakerRole": "Sri Krishna college of Engineering and Technology",
+      "speakerImage": "assets/speakers/Epaphra.jpg",
+      "speakerDescription": "",
+      "linkedin": "https://www.linkedin.com/in/epaphra-t-06a7751ab/"
+
+  },
+
+
+{
+  "sessionName": "Other Education Streams for your child",
+  "sessionColor": "blue",
+  "sessionDescription": "Learn about career opportunities for your son/daughter that the future world demands. There’s not two, there are MANY!",
+  "sessionDate":"July 12",
+  "sessionStartTime": "07:00",
+  "sessionEndTime": "08.00 P.M",
+  "speakerName": "Sushma",
+  "speakerRole": "Coimbatore Institute of Technology",
+  "speakerImage": "assets/speakers/Sushma.jpeg",
+  "speakerDescription": "",
+  "linkedin": "https://www.linkedin.com/in/sushma-bala-03112000/"
+
+},
+{
+  "sessionName": "Online Earning Opportunities",
+  "sessionColor": "pink",
+  "sessionDescription": "Get an idea about the Earning websites and how to trade online, understand stock markets and other home-based jobs.",
+  "sessionDate":"July 13",
+  "sessionStartTime": "07:00",
+  "sessionEndTime": "08.00 P.M",
+  "speakerName": "Deepthi",
+  "speakerRole": "Sri Krishna College of Technology",
+  "speakerImage": "assets/speakers/Deepthi.jpeg",
+  "speakerDescription": "",
+  "linkedin": "https://www.linkedin.com/in/deepthi-shree-0986b418b"
+
+},
+
+{
+  "sessionName": "How to Connect with your child ",
+  "sessionColor": "geekblue",
+  "sessionDescription": "Learn about the well-being of your child. Being a parent, connect with your child more than anyone else.",
+  "sessionDate":"July 14",
+  "sessionStartTime": "07:00",
+  "sessionEndTime": "08.00 P.M",
+  "speakerName": "Roselin",
+  "speakerRole": "KGISL Institute of Technology",
+  "speakerImage": "assets/speakers/roselin.jpeg",
+  "speakerDescription": "",
+  "linkedin": "https://www.linkedin.com/in/arthi-roselin-86b23714a"
+
+},
+{
+  "sessionName": "Skilling through Technology for your career",
+  "sessionColor": "green",
+  "sessionDescription": "Learn about the different ways of applying technology which helps in upgrading your career.",
+  "sessionDate":"July 15",
+  "sessionStartTime": "07:00",
+  "sessionEndTime": "08.00 P.M",
+  "speakerName": "Naishadh",
+  "speakerRole": "Excel Engineering College",
+  "speakerImage": "assets/speakers/Naishadh.jpg",
+  "speakerDescription": "",
+  "linkedin": "https://www.linkedin.com/in/ammu-naishadh-a4b2941b0"
+
+},
+
+{
+  "sessionName": " How to prepare your child for Entrepreneurship",
+  "sessionColor": "geekblue",
+  "sessionDescription": "Learn about how to prepare your child for Entrepreneurship",
+  "sessionDate":"July 16",
+  "sessionStartTime": "07:00",
+  "sessionEndTime": "08.00 P.M",
+  "speakerName": "Balaji",
+  "speakerRole": "Velalar College of Engineering And Technology",
+  "speakerImage": "assets/speakers/Balaji.jpeg",
+  "speakerDescription": "",
+  "linkedin": "https://www.linkedin.com/in/balaji-j-3b617a186/"
+},
+
+{
+  "sessionName": "How to prepare your child for Placements",
+  "sessionColor": "blue",
+  "sessionDescription": "Learn about the recommendations and scope of online platforms and freelancing opportunities.",
+  "sessionDate":"July 17",
+  "sessionStartTime": "07:00",
+  "sessionEndTime": "08.00 P.M",
+  "speakerName": "Sree Sai Varsha",
+  "speakerRole": "KGISL Institute Of Technology",
+  "speakerImage": "assets/speakers/Sree Sai Varsha.jpeg",
+  "speakerDescription": "",
+  "linkedin": "https://www.linkedin.com/in/sree-sai-varsha-s-830a931a5"
+
+}
+
+]

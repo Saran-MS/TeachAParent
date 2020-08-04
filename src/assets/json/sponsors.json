@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Nanban",
+        "logo": "assets/icons/nanban icon.png",
+        "level": "Gold"
+    },
+    {
+        "name": "Nanban",
+        "logo": "assets/icons/nanban icon.png",
+        "level": "Silver"
+    },
+    {
+        "name": "Nanban",
+        "logo": "assets/icons/nanban icon.png",
+        "level": "Bronze"
+    },
+    {
+        "name": "Nanban",
+        "logo": "assets/icons/nanban icon.png",
+        "level": "Media"
+    },
+    {
+        "name": "Nanban",
+        "logo": "assets/icons/nanban icon.png",
+        "level": "Venue"
+    }
+]

@@ -1,0 +1,29 @@
+<div class="container text-center mt-5 mb-5">
+    <h4 class="pt-5 pb-2 mt-5">Lineup of rockstar speakers!</h4>
+    <p class="pb-2 font-regular">The following speakers have been confirmed for the event. We appreciate you to plan your sessions accordingly on deciding which events you want to focus on. We do have Q/A time alloted for every session.
+    </p>
+    <div class="row justify-content-center">
+        <div class="col-md 12 text-center">
+            <div class="material-border">
+                <div class="row justify-content-center">
+                    <ng-container *ngFor="let lead of speakersList">
+                      <div *ngIf="lead.name" class="col-md-4">
+                        <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-96" [src]='lead.image' />
+                        <img *ngIf="(!lead.image || lead.image === '') && lead.name" class="m-2 round-96" src="assets/icons/placeholder.svg" />
+                        <h4 *ngIf="lead.name" class="pb-0 mb-0 font-regular">{{lead.name}}</h4>
+                        <p *ngIf="lead.name" class="pb-0 mb-1 font-regular color-333333">{{lead.role}}</p>
+                        <nz-tag *ngIf="lead.name" class="tag-session" [nzColor]="lead.sessionColor">{{lead.sessionName}}</nz-tag>
+                        <p *ngIf="lead.name" class="pt-1 pb-1 font-regular color-333333">{{lead.description}}</p><hr *ngIf="lead.name">
+                        <div class="mb-5">
+                            <a *ngIf="lead.twitter" target="_blank" href="{{lead.twitter}}"><i style="color: rgb(29, 161, 242); margin-left: 0px" nz-icon [nzTheme]="'fill'" [nzType]="'twitter-circle'"></i></a>
+                            <a *ngIf="lead.linkedin" target="_blank" href="{{lead.linkedin}}"><i style="color: rgb(0, 119, 181); margin-right: 4px; margin-left: 4px" nz-icon [nzTheme]="'fill'" [nzType]="'linkedin'"></i></a>
+                            <a *ngIf="lead.github" target="_blank" href="{{lead.github}}"><i style="color: #333; margin-right: 4px; margin-left: 4px" nz-icon [nzType]="'github'"></i></a>
+                            <a *ngIf="lead.link" target="_blank" href="{{lead.link}}"><i style="color: #333; margin-left: 0px" nz-icon [nzType]="'link'"></i></a>
+                        </div>
+                      </div>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

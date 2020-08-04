@@ -1,0 +1,33 @@
+<div class="container mt-5 mb-5">
+    <h4 class="pt-5 pb-2 mt-5 text-center">Event Sessions</h4>
+    <p class="text-center">These are the topics that are going to happen in webinar series</p>
+<div class="row justify-content-center">
+        <div class="col-md 12">
+            <div class="material-border">
+                <div *ngFor="let lead of speakersList" class="row">
+                    <div class="col-md-2">
+                        <span style="font-size: 24px" class="ant-statistic-content-prefix ng-star-inserted">{{lead.sessionDate}}</span>
+                        <span class="ant-statistic-content-suffix ng-star-inserted">{{lead.sessionStartTime}}-{{lead.sessionEndTime}}</span>
+                    </div>
+                    <div class="col-md-10">
+                        <h4>{{lead.sessionName}}</h4>
+                        <p *ngIf="lead.sessionDescription" class="pb-2 pt-2 mb-0 font-regular color-333333">{{lead.sessionDescription}}</p>
+                        <div *ngIf="lead.name" class="row">
+                            <div class="ml-1">
+                                <img *ngIf="lead.image && lead.image !== ''" class="m-2 round-120" [src]='lead.image' />
+                                <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120" src="assets/icons/placeholder.svg" />
+                            </div>
+                            <div class="col-md-6" style="align-self: center">
+                                <h5 style="margin-left: 30px" class="mt-0 mb-0 color-333333">{{lead.name}}</h5>
+                                <!--<a> <button style="background-color: #03942F; border-color: #03942F" nz-button [nzSize]="'medium'" nzType="primary">
+                                  Join<i style="color:#FFF; margin-left: 4px" ></i>
+                                </button></a>-->
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+<div class="container text-center mt-6 mb-6">
+  <h2 class="pt-5 pb-2 mt-5">The PART-ners</h2>
+  <br>
+  <h5 class="pb-2 font-regular">We are looking for partners - College campuses, Companies, Clubs,  Organizations to provide the maximum reach.
+  </h5>
+
+  <div class="row justify-content-center">
+    <div class="col-md 6">
+      <div class="material-border">
+        <div class="flex row">
+          <div class="flex row fo">
+            <div class="col-md-6 fo2">
+              <h2 *ngIf="shoutout.length > 0" class="m-3">Shoutout Partners</h2>
+              <div *ngIf="shoutout.length > 0" class="row justify-content-center">
+                <div *ngFor="let lead of shoutout" class="col-md-6">
+                  <img *ngIf="lead.image && lead.image !== ''" class="rounded" style="margin: 13%;" width="180px" height="150px" [src]='lead.image' />
+                  <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120"  src="assets/icons/placeholder.svg" />
+                  <h5 class="pb-0 mb-0 font-regular" style="margin-left: 8%;" >{{lead.name}}</h5>
+                </div>
+              </div>
+              </div>
+              <br>
+              <div class="col-md-6">
+                <h2 *ngIf="outreach.length > 0" class="m-3">Outreach Partners</h2>
+                <div *ngIf="outreach.length > 0" class="row justify-content-center">
+                  <div *ngFor="let lead of outreach" class="col-md-6">
+                    <img *ngIf="lead.image && lead.image !== ''" class="rounded"   style="margin: 13%;" width="180px" height="150px" [src]='lead.image' />
+                    <img *ngIf="!lead.image || lead.image === ''" class="m-2 round-120"
+                      src="assets/icons/placeholder.svg" />
+                    <h5 class="pb-0 mb-0 font-regular" style="margin-left: 8%;">{{lead.name}}</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
